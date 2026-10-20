@@ -4,18 +4,17 @@
 
 **Requisitos:** Computador com Windows 10/11, Cabo USB, Placa Sparki
 
-**Tempo estimado:** 5 minutos 
+**Tempo estimado:** 4 minutos 
 
 ---
 
 ## Passo a Passo
 
 1. **Baixando o Instalador:** 
-   Clique no link abaixo e o download do arquivo vai começar, demora alguns segundos para ser concluído:
+   Clique no link abaixo e o download do arquivo vai começar, o processo leva alguns segundos para ser concluído:
   <http://download.arcbotics.com/SparkiDuino-1.8.7.1-Setup.exe>
 2. **Executando a Instalação:** 
-   A partir desse ponto o processo é extremamente simples e apenas é necessário seguir as opções mais simples, como **permitir** e **confirmar**
-   dão seguimento no processo, a última tela é uma como essa e após a seguir e a instalação vai começar logo após ela, a instalação é simples e não deve demorar mais de um minuto.
+   A partir desse ponto o processo é extremamente simples e apenas é necessário seguir as opções mais simples, como **permitir** e **confirmar** dão seguimento no processo, a última tela é uma como essa. A instalação vai começar logo após, ela é simples e não deve demorar mais de um minuto.
    <img width="561" height="434" alt="image" src="https://github.com/user-attachments/assets/1cd7706e-2ebb-44a0-a965-be16ae763f80" />
 
 3. **Abrindo o Sparkiduino:** 
