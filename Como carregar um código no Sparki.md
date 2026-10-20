@@ -27,6 +27,9 @@
    Caso algum erro tenha sido cometido o Arduino irá te avisar, basta corrigir e enviar o código novamente.
 
 
-   
-
+## Possíveis Erros e Soluções
+*   **Problema:** O código dá erro de compilação dizendo que sparki não foi declarado ou não foi encontrado ('sparki' was not declared in this scope).
+*   **Solução:** Você esqueceu de incluir a biblioteca na primeira linha. Certifique-se de que digitou exatamente #include <Sparki.h> no topo do seu código.
+*   **Problema:** Ao clicar em carregar, aparece um erro de comunicação ou o upload fica travado em "Carregando...".
+*    **Solução:** Verifique se o Sparki está ligado (chave em ON), se a porta COM correta está selecionada em Ferramentas $\rightarrow$ Porta e se a placa selecionada é a ArcBotics Sparki.
 
