@@ -1,10 +1,10 @@
 # Instalação do Arduino IDE no Windows
 
-**Objetivo:** Instalar o Arduino IDE em um computador Windows
+**Objetivo:** Instalar o Arduino IDE em um computador Linux
 
-**Requisitos:** Computador com Windows 10/11, um robô Sparki
+**Requisitos:** Computador com Linux, um robô Sparki
 
-**Tempo estimado:** Entre 3 e 10 minutos
+**Tempo estimado:** Entre 8 e 15 minutos
 
 ---
 
@@ -19,7 +19,7 @@ Clique no link abaixo e o dowload do arquivo base da IDE vai começar imeditamen
 **arduino-1.8.19-linux64**
 Clique com o botão direito do mouse e aperte em **Extrair**
 
-4. **Instalação no Terminal**
+3. **Instalação no Terminal**
    Após extrair o arquivo, clique novamente com o botão direito do mouse na pasta em que o arquivo foi extraindo e clique em **Abrir terminal na pasta**, com o terminal aberto, digite cada um dos seguintes códigos e aperte **Enter** após cada um deles :
    ls
    cd arduino-1.8.19-linux64
@@ -28,10 +28,11 @@ Clique com o botão direito do mouse e aperte em **Extrair**
    hmcod +x arduino
    chmod +x arduino-builder
    chmod -R 777 tools-builder
+   ./install.sh
 
    Pode fechar o terminal após isso.
    
-5. **Finalizando a instalação**:
+4. **Finalizando a instalação**:
   Abra um novo terminal separado em seu computador apertando as teclas **CTRL** + **ATL** + **T** simultaneamente e digite, apertanto ENTER após cada linha os seguintes coódigos:
   wget -c
   http://security.ubuntu.com/ubuntu/pool/main/r/readline6/libreadline6_6.3-8ubuntu2_amd64.deb
@@ -42,7 +43,7 @@ Clique com o botão direito do mouse e aperte em **Extrair**
 
 Após todas instalações, pode fechar o terminal
 
-7. **Configurando a Placa:** 
+5. **Configurando a Placa:** 
    Já dentro da IDE, vá na aba **Arquivos**, no canto superior direito e depois **Preferências**, dentro de Preferências, vá até **URLs Adicionais para Gerenciadores de Placas** e cole o seguinte código:
    <https://raw.githubusercontent.com/ArcBotics/ArcBotics-Boards/master/package_arcbotics.com_boards_index.json>
 
@@ -57,3 +58,5 @@ Após todas instalações, pode fechar o terminal
    
 
    Após esse processo, o seu computador estará concectado com o Sparki e pronto para ser usado, basta selecionar a porta conectada ao USB e a placa que tem como nome ArcBotics Sparki.
+
+   
