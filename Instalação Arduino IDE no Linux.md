@@ -59,4 +59,8 @@ Após todas instalações, pode fechar o terminal
 
    Após esse processo, o seu computador estará concectado com o Sparki e pronto para ser usado, basta selecionar a porta conectada ao USB e a placa que tem como nome ArcBotics Sparki.
 
-   
+## Possíveis Erros e Soluções
+*   **Problema:** O Arduino IDE não abre após clicar no arquivo.
+*   **Solução:** Certifique-se de que você executou os comandos de permissão (chmod +x arduino) no terminal durante o Passo 3. Se ainda assim não abrir, tente abrir o terminal dentro da pasta da IDE e digitar ./arduino para ver se aparece algum erro específico.
+*   **Problema:** A opção de selecionar a Porta USB fica cinza ou o código não vai para o Sparki.
+*    **Solução:** Verifique se o cabo USB está bem encaixado, se o robô está ligado e se você adicionou a permissão da porta USB no terminal (comando sudo usermod -a -G dialout $USER, seguido de uma reinicialização do computador).
