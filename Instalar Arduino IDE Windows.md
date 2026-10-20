@@ -11,15 +11,15 @@
 ## Passo a Passo
 
 1. **Baixando o Instalador:** 
-Clique no link abaixo e o dowload do arquivo base da IDE vai começar imeditamente
+Clique no link abaixo e o download do arquivo base da IDE vai começar imediatamente
 <https://downloads.arduino.cc/arduino-1.8.19-windows.exe>
 
-3. **Executando a Instalação**
-  Após alguns segundos ou minutos o dowload será concluído e será possível acessá-lo nos arquivos do computador, ele provavelmente estará na forma 
+2. **Executando a Instalação**
+  Após alguns segundos ou minutos o dowload será concluído e será possível acessá-lo nos arquivos do computador, ele provavelmente estará na forma: 
 **arduino-1.8.19-windows**
 
-4. **Executando a Instalação:** 
- Clique 2 vezes no arquivo visível e você será automaticamente redirecionado para a seguinte página, a partir daí o processo é muito simples e seguir os comandos em destque na tela é suficiente para executar a instalação.
+3. **Executando a Instalação:** 
+ Clique 2 vezes no arquivo visível e você será automaticamente redirecionado para a seguinte página, a partir daí o processo é muito simples e seguir os comandos em destaque na tela é suficiente para executar a instalação.
 <img width="629" height="435" alt="image" src="https://github.com/user-attachments/assets/d7fe4d9b-fd40-44db-a979-89d8b899bbab" />
 <img width="636" height="433" alt="image" src="https://github.com/user-attachments/assets/737fdb98-d134-415c-aac0-aeb4fdbb3ae0" />
 <img width="634" height="436" alt="image" src="https://github.com/user-attachments/assets/8efa95fd-4236-490b-aa1d-4af7eeaa1fa8" />
@@ -41,7 +41,7 @@ Após a última imagem a instalação começará imediatamente e alguns segundos
 
    
 
-   Após esse processo, o seu computador estará concectado com o Sparki e pronto para ser usado, basta selecionar a porta conectada ao USB e a placa que tem como nome ArcBotics Sparki.
+   Após esse processo, o seu computador estará conectado com o Sparki e pronto para ser usado, basta selecionar a porta conectada ao USB e a placa que tem como nome ArcBotics Sparki.
    
 
 
@@ -50,5 +50,8 @@ Após a última imagem a instalação começará imediatamente e alguns segundos
 ---
 
 ## Possíveis Erros e Soluções
-*   **Problema:** [Ex: "O computador não reconhece a placa na porta COM"}
-*   **Solução:** [Ex: "Verifique se o cabo USB transmite dados ou instale o driver CH340 no link X."]
+*   **Problema:** A opção de selecionar a Porta COM fica cinza/desativada no Arduino IDE.
+*   **Solução:** Verifique se o cabo USB está bem conectado ao Sparki e se o robô está ligado. Certifique-se também de estar utilizando um cabo USB com capacidade de transmissão de dados (alguns cabos servem apenas para carregamento de energia).
+*   **Problema:** Erro ao baixar ou instalar a placa no Gerenciador de Placas.
+*   **Solução:** Verifique sua conexão com a internet e confirme se a URL digitada em Preferências não contém espaços extras ou caracteres faltando.
+
